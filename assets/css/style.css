@@ -1,3 +1,7 @@
+head {
+    margin:0;
+}
+
 body {
     margain: 0px;
     background:#eeee;
@@ -20,4 +24,17 @@ li a {
   padding: 8px;
   background-color: #eeee;
 }
+h2 {
+    font-family:Helvetiva;
+    
+}
 
+p {
+    color:blue;
+text-align:left;
+
+}
+article {
+text-align:left;
+    
+}
