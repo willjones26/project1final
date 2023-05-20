@@ -38,8 +38,9 @@ ul:hover a:hover {
     box-shadow: 0 2px 0 0 currentcolor;
 }
 
+
 #hero-image {
-    height:600px;
+    height:500px;
     width:100%;
     background:url(https://a.cdn-hotels.com/gdcs/production121/d632/1a600407-3573-4f93-9f64-59698fed860d.jpg) no-repeat center center;
     animation-name: hero-zoom;
@@ -83,4 +84,46 @@ color:rgb(255,255,255);;
 background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(132,176,228,1) 100%);
 
+}
+
+
+ .history  {
+    vertical-align: top;
+     display: inline-block;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 30%;
+     border: 4px solid #555555; 
+ }
+ .work {
+    vertical-align: top;
+     display: inline-block;
+    padding-left: 500px;
+    vertical-align: top;
+    width: 30%; 
+     border: 10px solid #555555;
+ }
+#footer {
+    height:150px;
+    width:;
+}
+#social-media-links {
+    text-align:center;
+
+}
+#social-media-links ul {
+    display:inline;
+
+}
+#social-media-links li {
+    font-size:160%;
+    margin:1%;
+    padding:5%;
+    color: #777777;
+}
+.footer {
+     font-size:160%;
+    margin:1%;
+    padding:5%;
+    color: #777777;
 }
