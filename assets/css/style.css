@@ -1,28 +1,33 @@
 head {
     margin:0;
 }
+ body {
+        font-family: "Helvetiva"; font-size:22px;
+    }
 
-body {
-    margain: 0px;
-    background:#eeee;
-    font-family: Arail, Helvetiva, sans-serif;
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.25s ease;
 }
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+    display:flex;
+    flex-wrap:wrap;
 
-li {
-  float: left;
 }
+ul li {
+    margin-left:0.75em;
+    margin-right:0.75em;
+}
+ul:hover a {
+    color:#575757;
 
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #eeee;
+}
+ul:hover a:hover {
+    color:#5cdb95
+    box-shadow: 0 2px 0 0 currentcolor;
 }
 h2 {
     font-family:Helvetiva;
@@ -30,7 +35,7 @@ h2 {
 }
 
 p {
-    color:blue;
+    color:black;
 text-align:left;
 
 }
