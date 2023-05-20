@@ -1,10 +1,17 @@
 head {
     margin:0;
+     font-family: 'Oswald', sans-serif;
+font-family: 'Wix Madefor Display', sans-serif;
 }
  body {
-        font-family: "Helvetiva"; font-size:22px;
+         font-size:22px;
+         font-family: 'Oswald', sans-serif;
+font-family: 'Wix Madefor Display', sans-serif;
     }
-
+#logo {
+    float:left;
+    font-size:200%;
+}
 
 
 a {
@@ -15,6 +22,7 @@ a {
 ul {
     display:flex;
     flex-wrap:wrap;
+    float:right;
 
 }
 ul li {
@@ -29,17 +37,18 @@ ul:hover a:hover {
     color:#5cdb95
     box-shadow: 0 2px 0 0 currentcolor;
 }
-h2 {
-    font-family:Helvetiva;
-    
-}
 
-p {
-    color:black;
-text-align:left;
+#hero-image {
+    height:600px;
+    width:100%;
+    background:url(https://a.cdn-hotels.com/gdcs/production121/d632/1a600407-3573-4f93-9f64-59698fed860d.jpg) no-repeat center center
+}
+#hero-outer {
+    height:600px;
+    width:100%;
+    overflow:hidden;
 
 }
-article {
-text-align:left;
+@keyframes hero-zoom {
     
 }
