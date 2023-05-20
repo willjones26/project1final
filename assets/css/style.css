@@ -41,14 +41,46 @@ ul:hover a:hover {
 #hero-image {
     height:600px;
     width:100%;
-    background:url(https://a.cdn-hotels.com/gdcs/production121/d632/1a600407-3573-4f93-9f64-59698fed860d.jpg) no-repeat center center
+    background:url(https://a.cdn-hotels.com/gdcs/production121/d632/1a600407-3573-4f93-9f64-59698fed860d.jpg) no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
 #hero-outer {
     height:600px;
     width:100%;
     overflow:hidden;
+    position: relative;
 
 }
 @keyframes hero-zoom {
-    
+    from{
+     transform: scale(1);
+    }
+    to{
+transform: scale(1.1);
+    }
+}
+#cover-text h2 {
+color:rgb(255,255,255);;
+}
+#cover-text {
+    font-size:120%;
+    font-family:"Oswald";
+    text-transform:uppercase;
+    letter-spacing:2px;
+
+    width:200px;
+    height:300;
+    padding-top:40px;
+    padding-left:10px;
+    bottom:30px;
+    right:30px;
+    position:absolute;
+
+
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(132,176,228,1) 100%);
+
 }
