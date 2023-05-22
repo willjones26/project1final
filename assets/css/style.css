@@ -2,11 +2,14 @@ head {
     margin:0;
      font-family: 'Oswald', sans-serif;
 font-family: 'Wix Madefor Display', sans-serif;
+
 }
  body {
          font-size:22px;
          font-family: 'Oswald', sans-serif;
 font-family: 'Wix Madefor Display', sans-serif;
+background-color: rgb(242, 240, 240);
+
     }
 #logo {
     float:left;
@@ -35,10 +38,15 @@ ul:hover a {
 
 }
 ul:hover a:hover {
-    color:#5cdb95
+    color:#5cdb95;
     box-shadow:2px 0 0 currentcolor;
 }
-
+.navbar {
+        
+        
+            border: 2px solid #5cdb95;
+            border-radius: 5px;
+}
 
 
 
@@ -123,13 +131,36 @@ vertical-align: top;
 }
 
  .contactlist {
-                position: absolute;
-                right: 1100px;
-                width: 300px;
-                border: 3px solid #73AD21;
-                padding: 10px;
+    vertical-align: top;
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: top;
+        width: 30%;
+        position: absolute;
+        top: 45%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-family: 'Wix Madefor Display',
+            sans-serif;
+        border: 3px solid #73AD21;
+             
             }
 
+ .contactyou {
+    vertical-align: top;
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: top;
+        width: 30%;
+        position: absolute;
+        top: 45%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        font-family: 'Wix Madefor Display',
+            sans-serif;
+            border: 3px solid #73AD21;
+   
+    }
  
 #footer {
     height:150px;
